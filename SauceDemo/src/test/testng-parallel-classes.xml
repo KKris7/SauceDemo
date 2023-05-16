@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel suite" parallel="classes" thread-count="6">
+    <test name="ParallelTests">
+        <classes>
+            <class name="com.saucedemo.test.FirstUseCase"/>
+            <class name="com.saucedemo.test.SecondUseCase"/>
+            <class name="com.saucedemo.test.ThirdUseCase"/>
+            <class name="com.saucedemo.test.FourthUseCase"/>
+            <class name="com.saucedemo.test.FifthUseCase"/>
+            <class name="com.saucedemo.test.SixthUseCase"/>
+        </classes>
+    </test>
+</suite>

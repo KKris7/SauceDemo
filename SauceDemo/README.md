@@ -1,0 +1,1 @@
+Simple Automation test project
